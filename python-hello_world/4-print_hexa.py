@@ -1,2 +1,4 @@
-for i in range(99):
+i = 0
+while i < 99:
     print("{} = {}".format(i, hex(i)))
+    i += 1
